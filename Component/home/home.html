@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الرئيسية</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body dir="rtl">
+    
+   <div class="home">
+        <div class="container">
+            <div class="icon">
+
+                <a href="../../index.html" class="back" ><img src="../../img/EditUndo.bmp" alt="رجوع"></a>
+                <img class="btnRefresh" onclick="refresh();" src="../../img/refresh2.ico" alt="تحديث">
+            </div>
+
+            <div class="app">
+                <div class="logo">
+                    <img src="../../img/logo.jpg" alt="logo">
+                    <h3>بيوتي سنتر <span class="engy">إنجـي</span></h3>
+                  </div>
+                  
+                <div class="app-home">
+                    <div class="invo">
+                        <a href="../reservetion/reservation.html" class="btn-link-home"><img src="../../img/reserve.jpg" alt=""></a>
+                        <a href="../reservetion/reservation.html" class="btn-link-home">الحجوزات</a>
+                    </div>
+                    
+                    <div class="invo">
+                        <a href="../all-product/items.html" class="btn-link-home"><img src="../../img/dress.jpg" alt=""></a>
+                        <a href="../all-product/items.html" class="btn-link-home"> الاصناف</a>
+                    </div>
+                        
+                    
+                    <div class="invo">
+                        <a href="../expenses/expenses.html" class="btn-link-home" ><img src="../../img/expenses.jpg" alt=""></a>
+                        <a href="../expenses/expenses.html" class="btn-link-home">المصروفات</a>
+                    </div>
+                    <div class="invo">
+                        <a href="../expensesOther/expenses.html" class="btn-link-home" ><img src="../../img/pay.jpg" alt=""></a>
+                        <a href="../expensesOther/expenses.html" class="btn-link-home">الملاحظات</a>
+                    </div>
+                    <div class="invo">
+                        <a href="../reports/report.html" class="btn-link-home" ><img src="../../img/reports.jpg" alt=""></a>
+                        <a href="../reports/report.html" class="btn-link-home">التقارير</a>
+                    </div>
+                    
+                    
+                    <div class="invo">
+                        <a href="../history/history.html" class="btn-link-home" ><img src="../../img/reserve.jpg" alt=""></a>
+                        <a href="../history/history.html" class="btn-link-home">السجلات</a>
+                    </div>
+                    <div class="invo">
+                        <a href="../suplaiers/index.html" class="btn-link-home" ><img src="../../img/client.jpg" alt=""></a>
+                        <a href="../suplaiers/index.html" class="btn-link-home">الموردين</a>
+                    </div>
+                    <div class="invo">
+                        <a  class="btn-link-home btnResgister" id="btnResgister" href='../userRegister/uerRegister.html'><img src="../../img/users.png" alt=""></a>
+                        <a class="btn-link-home" href='../userRegister/uerRegister.html'>المستخدمين</a>
+                    </div>
+
+                    <!-- <div class="invo">
+                        <a  class="btn-link-home btnResgister" id="btnResgister" href='../home2/home.html'><img src="../../img/pageOther.jpg" alt="الاعدادات"></a>
+                        <a class="btn-link-home" href='../home2/home.html'>صفحة اخري</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="divAlarm">
+            <div class="alarm">
+                <div class="inputs">
+                    <input type="password" id="passCheck" placeholder="ادخل الباسوورد من فضلك">
+                    <div class="buttons">
+                        <button id="btnCheck" onclick="checkPass();">موافق</button>
+                        <button id="btnCancel" onclick="exitePass();">الغاء</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+   </div> 
+   <script src="./js/home.js">
+        
+   </script>
+</body>
+</html>
