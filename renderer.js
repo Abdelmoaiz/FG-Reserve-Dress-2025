@@ -140,22 +140,7 @@ btnSignIn.addEventListener("click",(e)=>{
             userNameView = username.value;
             job = 'it';
 
-        }else if(username.value == 'demo' && password.value == '2'){
-            window.location.href = "./Component/home/home.html";
-            userNameView = username.value;
-            job = 'demo';
-
         }else if(username.value == 'admin' && password.value == '1122'){
-            window.location.href = "./Component/home/home.html";
-            userNameView = username.value;
-            job = 'it';
-
-        }else if(username.value == 'مروة' && password.value == '1825'){
-            window.location.href = "./Component/home/home.html";
-            userNameView = username.value;
-            job = 'it';
-
-        }else if(username.value == 'محمد' && password.value == '161187'){
             window.location.href = "./Component/home/home.html";
             userNameView = username.value;
             job = 'it';
